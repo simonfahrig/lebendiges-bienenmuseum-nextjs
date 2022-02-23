@@ -9,7 +9,7 @@ export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -27,49 +27,55 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         {home ? (
-          <div className={styles.headerdiv}>
-            <div className={styles.headerelements}>
-              <Image
-                priority
-                src="/images/profile.jpg"
-                height={104}
-                width={144}
-                alt={name}
-              />
+          <div className={styles.headercontainer}>
+            <div className={styles.headerdiv}>
+              <div className={styles.headerelements}>
+                <Image
+                  priority
+                  src="/images/profile.jpg"
+                  height={104}
+                  width={144}
+                  alt={name}
+                />
+              </div>
+              <h1 className={utilStyles.headingXl}>{name}</h1>
             </div>
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </div>
         ) : (
-          <div className={styles.headerdiv}>
-            <Link href="/">
-              <a>
-                <div className={styles.headerelements}>
-                  <Image
-                    priority
-                    src="/images/profile.jpg"
-                    height={67}
-                    width={93}
-                    alt={name}
-                  />
-                </div>
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
+          <div className={styles.headercontainer}>
+            <div className={styles.headerdiv}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a className={styles.headerelements}>
+                  <div>
+                    <Image
+                      priority
+                      src="/images/profile.jpg"
+                      height={67}
+                      width={93}
+                      alt={name}
+                    />
+                  </div>
+                </a>
               </Link>
-            </h2>
+              <h2 className={utilStyles.headingMd}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>{name} →</a>
+                </Link>
+              </h2>
+            </div>
           </div>
         )}
       </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      <div className={styles.container}>
+        <main>{children}</main>
+        {!home && (
+          <div className={styles.backToHome}>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
+      </div>
     </div>
   )
 }
