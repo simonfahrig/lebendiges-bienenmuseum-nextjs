@@ -27,9 +27,9 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         {home ? (
-          <div className={styles.headercontainer}>
+          <div className={styles.home}>
             <div className={styles.headerdiv}>
-              <div className={styles.headerelements}>
+              <div className={styles.headerimage}>
                 <Image
                   priority
                   src="/images/profile.jpg"
@@ -42,10 +42,10 @@ export default function Layout({ children, home }) {
             </div>
           </div>
         ) : (
-          <div className={styles.headercontainer}>
+          <div className={styles.child}>
             <div className={styles.headerdiv}>
               <Link href="/">
-                <a className={styles.headerelements}>
+                <a className={styles.headerimage}>
                   <div>
                     <Image
                       priority
