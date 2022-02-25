@@ -16,13 +16,13 @@
 .headercontainer {
   display: flex;
   align-items: center;
-  max-width: 1000px;
+  width: 100%;
   justify-content: space-between;
   align-content: space-between;
 }
 
 .headerdiv {
-  width: 1000px; 
+  width: 100%; 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,10 +35,10 @@
 .backToHome {
   margin: 3rem 0 0;
 }
-
+/* 
 .headercontainer, .headercontainer div {
   border: 1px solid black;
-}
+} */
 
 /* .container div {
   border: 1px solid black;
