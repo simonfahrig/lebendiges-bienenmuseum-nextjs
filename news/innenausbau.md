@@ -1,6 +1,7 @@
 ---
 title: "Innenausbau des Bienenmuseums"
 date: "2019-06-06"
+author: "Hans-Joachim Flügel"
 ---
 
 ![Umbau-24.3.2017.JPG](../images/Umbau-24.3.2017.JPG)

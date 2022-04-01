@@ -1,6 +1,7 @@
 ---
 title: "Die Flechten auf dem Freigelände des Bienenmuseums"
 date: "2010-03-30"
+author: "Hans-Joachim Flügel"
 ---
 
 Im Garten und auf dem Freigelände des Bienenmuseums sind wir bemüht, wenigstens eine Bestandserfassung der dort wild lebenden Tiere und Pflanzen durchzuführen. Bei den Pflanzen kommen im Garten außerdem noch Zier- und Nutzpflanzen hinzu, die ohne menschliche Hilfe hier nicht überleben könnten. Auch darunter gibt es interessante Arten, die für unsere blütenbesuchenden Insekten von Bedeutung sind. Daneben kommen kulturhistorische Gesichtspunkte hinzu, die eine Aufzählung der vorhandenen Arten und Sorten rechtfertigen. Beispielsweise stehen mehrere alte Apfelbäume auf dem Gelände, bei denen die Sortenbestimmung noch nicht in allen Fällen erfolgreich.

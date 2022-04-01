@@ -1,6 +1,7 @@
 ---
 title: "Bahnböschung in voller Blüte"
 date: "2019-06-30"
+author: "Hans-Joachim Flügel"
 ---
 
 ![Bahnboesch-20190628-22-kl.JPG](../images/Bahnboesch-20190628-22-kl.JPG)
