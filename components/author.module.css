@@ -1,3 +1,9 @@
 .profileImage {
     border-radius: 100px;
+    border: 2px solid #FFD800 !important;
   }
+
+.authorName {
+  font-size: 20px;
+  font-weight: bold;
+}
