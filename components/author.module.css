@@ -11,3 +11,9 @@
 .citation {
   font-family: 'Lora', 'Georgia', serif;
 }
+
+.link {
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+}
