@@ -1,6 +1,7 @@
 ---
 title: "Jahresprogramm für 2022"
 date: "2022-03-23"
+author: "Erika Geiseler"
 ---
 | Datum | Veranstaltung |
 |----|----|

@@ -1,6 +1,7 @@
 ---
 title: "Moose aus dem Bereich des Lebendigen Bienenmuseums"
 date: "2007-01-30"
+author: "Hans-Joachim Flügel"
 ---
 
 Moose sind meist kleine, unscheinbare, im Detail aber äußerst grazile Lebewesen, die außer dem Salzwasser und Gletschern nahezu alle Lebensräume unserer Erde besiedelt haben. Die meisten Moose bevorzugen feuchte Standorte, es gibt aber auch ausgesprochene Besiedler von Trockenstandorten.
